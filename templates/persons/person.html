@@ -1,0 +1,5 @@
+{% extends 'persons/kidsTable.html' %} {% blockContent %}
+<h2> {{missing_persons.person.personView}}
+    <p>{{person.age_at_missing}}
+<a href = '{% url 'home' %}'>Go Back</a>
+{% endblock%}
